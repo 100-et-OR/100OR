@@ -41,15 +41,15 @@ const Navbar = () => {
 
                     {/* Logo au milieu */}
                     <div className="flex-grow flex justify-center">
-                        <img src="public/img/LogoNav.png" alt="LogoNav" className="w-24 md:w-32" />
+                        <img src="/100OR/img/LogoNav.png" alt="LogoNav" className="w-24 md:w-32" />
                     </div>
 
                     {/* Section droite - Drapeaux et Se connecter (visible uniquement sur desktop) */}
                     <div className="hidden md:flex items-center space-x-8">
                         <div className="flex space-x-2">
-                            <img src="public/img/flag/FRANCE.png" alt="FR" className="w-12 border-4 border-black" />
-                            <img src="public/img/X.png" alt="X" className="w-12" />
-                            <img src="public/img/flag/COLOMBIE.png" alt="CO" className="w-12 border-4 border-black" />
+                            <img src="/100OR/img/flag/FRANCE.png" alt="FR" className="w-12 border-4 border-black" />
+                            <img src="/100OR/img/X.png" alt="X" className="w-12" />
+                            <img src="/100OR/img/flag/COLOMBIE.png" alt="CO" className="w-12 border-4 border-black" />
                         </div>
                         <button 
                             className="text-gray-800 hover:text-yellow-500" 
@@ -91,9 +91,9 @@ const Navbar = () => {
                         <FaYoutube className="inline-block mr-2" /> YouTube
                     </a>
                     <div className="flex space-x-2 py-2">
-                        <img src="public/img/flag/FRANCE.png" alt="FR" className="w-8 h-6 border border-black" />
-                        <img src="public/img/X.png" alt="X" className="w-6 h-6" />
-                        <img src="public/img/flag/COLOMBIE.png" alt="CO" className="w-8 h-6 border border-black" />
+                        <img src="/100OR/img/flag/FRANCE.png" alt="FR" className="w-8 h-6 border border-black" />
+                        <img src="/100OR/img/X.png" alt="X" className="w-6 h-6" />
+                        <img src="/100OR/img/flag/COLOMBIE.png" alt="CO" className="w-8 h-6 border border-black" />
                     </div>
                 </div>
             )}

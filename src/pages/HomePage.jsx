@@ -17,12 +17,12 @@ const HomePage = () => {
 
     // Données des danseurs avec des images et liens Instagram
     const dancers = [
-        { id: 1, name: "Fabian", image: "/img/profil//Fabian.png", instagram: "https://www.instagram.com/break_boy_fabian" },
-        { id: 2, name: "Joakim", image: "/img/profil//Joakim.png", instagram: "https://www.instagram.com/joasinaloa" },
-        { id: 3, name: "Jawed", image: "/img/profil//Jawed.png", instagram: "https://www.instagram.com/jawedbrh" },
-        { id: 4, name: "Mailo", image: "/img/profil//Mailo.png", instagram: "https://www.instagram.com/mailorap" },
-        { id: 5, name: "Yann", image: "/img/profil//Yann.png", instagram: "https://www.instagram.com/yamzmusics99" },
-        { id: 6, name: "Cesar", image: "/img/profil//Cesar.png", instagram: "https://www.instagram.com/cesarx28_" },
+        { id: 1, name: "Fabian", image: "public/img/profil//Fabian.png", instagram: "https://www.instagram.com/break_boy_fabian" },
+        { id: 2, name: "Joakim", image: "public/img/profil//Joakim.png", instagram: "https://www.instagram.com/joasinaloa" },
+        { id: 3, name: "Jawed", image: "public/img/profil//Jawed.png", instagram: "https://www.instagram.com/jawedbrh" },
+        { id: 4, name: "Mailo", image: "public/img/profil//Mailo.png", instagram: "https://www.instagram.com/mailorap" },
+        { id: 5, name: "Yann", image: "public/img/profil//Yann.png", instagram: "https://www.instagram.com/yamzmusics99" },
+        { id: 6, name: "Cesar", image: "public/img/profil//Cesar.png", instagram: "https://www.instagram.com/cesarx28_" },
     ];
 
     return (
@@ -40,7 +40,7 @@ const HomePage = () => {
                         {/* Image à droite */}
                         <div className="w-full md:w-1/2 mt-6 md:mt-0 border-4 border-yellow-500 rounded-lg">
                             <img
-                                src="/img/Groupe.jpeg"
+                                src="public/img/Groupe.jpeg"
                                 alt="Groupe de danse"
                                 className="w-full h-auto shadow-xl"
                             />
@@ -111,7 +111,7 @@ const HomePage = () => {
                             {/* Image */}
                             <div className="w-full md:w-1/2 border-4 border-yellow-500 rounded-lg overflow-hidden shadow-2xl transform hover:scale-105 transition-transform duration-300">
                                 <img
-                                    src="/img/Explication.png"
+                                    src="public/img/Explication.png"
                                     alt="Danseurs en action"
                                     className="w-full h-auto object-cover"
                                 />

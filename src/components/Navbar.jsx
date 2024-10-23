@@ -51,12 +51,6 @@ const Navbar = () => {
                             <img src="/100OR/img/X.png" alt="X" className="w-12" />
                             <img src="/100OR/img/flag/COLOMBIE.png" alt="CO" className="w-12 border-4 border-black" />
                         </div>
-                        <button 
-                            className="text-gray-800 hover:text-yellow-500" 
-                            onClick={toggleLoginForm}
-                        >
-                            Se Connecter
-                        </button>
                     </div>
                 </div>
             </nav>

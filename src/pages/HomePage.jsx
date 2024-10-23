@@ -34,7 +34,7 @@ const HomePage = () => {
                         <div className="w-full md:w-1/2 mb-6 md:mb-0">
                             <h1 className="text-3xl md:text-5xl font-bold mb-4">PLUS QU'UN GROUPE</h1>
                             <p className="text-base md:text-lg max-w-xl">
-                                Groupe de danse expérimenté depuis 10 ans, dans tous les domaines les connexions se sont faites à partir de cet art et de la discipline. Ce n'est pas qu'un groupe, chacun a son histoire et s'exprime de sa façon. Découvrez notre groupe.
+                                Groupe de danse expérimenté depuis 10 ans, dans tous les domaines, les connexions se sont faites à partir de cet art et de cette discipline. Ce n'est pas qu'un groupe ; chacun a son histoire et s'exprime à sa manière. Découvrez notre groupe.
                             </p>
                         </div>
                         {/* Image à droite */}
@@ -85,7 +85,7 @@ const HomePage = () => {
                                 <ul className="space-y-4 md:space-y-6">
                                     <li className="flex flex-col">
                                         <span className="text-white font-semibold text-lg md:text-xl mb-2">Âge :</span>
-                                        <span className="bg-gray-700 p-2 md:p-3 rounded-lg text-yellow-400 font-medium">6 ans - 120 ans</span>
+                                        <span className="bg-gray-700 p-2 md:p-3 rounded-lg text-yellow-400 font-medium">Il n'y a pas d'âge minimum ou maximum pour danser !!</span>
                                     </li>
                                     <li className="flex flex-col">
                                         <span className="text-white font-semibold text-lg md:text-xl mb-2">Niveau :</span>
@@ -94,7 +94,7 @@ const HomePage = () => {
                                     <li className="flex flex-col">
                                         <span className="text-white font-semibold text-lg md:text-xl mb-2">Équipements :</span>
                                         <span className="bg-gray-700 p-2 md:p-3 rounded-lg text-yellow-400 font-medium">
-                                            Pour éviter de vous blesser si vous débutez dans le parcours ou pratiquez un sport qui nécessite de sauter, nous recommandons d'apporter vos protections.
+                                            Pour éviter de nuire à la mobilité, nous vous conseillons de ne pas avoir d'équipement.
                                         </span>
                                     </li>
                                 </ul>
